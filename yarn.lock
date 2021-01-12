@@ -57,10 +57,10 @@
     discord.js "^12.5.1"
     typescript "^4.1.3"
 
-"@discord-ts-app/ignitor@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@discord-ts-app/ignitor/-/ignitor-1.0.2.tgz#94be371a1638100de43381c1d1438f496b4903bc"
-  integrity sha512-RQuYzvSRulgbfXjF9Ulws5BGGK5UcqPombHxcyx9kWzhz+4Be4t6HossE+Yjl3A8LR2udomdYYzcLraDU9WE/g==
+"@discord-ts-app/ignitor@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@discord-ts-app/ignitor/-/ignitor-1.0.3.tgz#3ef07c48ef4013da7c6f368c9c2710bcff9652a0"
+  integrity sha512-NO1NFXdM4yAP5vvWVKGcB3opirDxTdqXS/EF0A5v918r6ewHeUm8SiIvjItQ24+bub3ZEfcq0+NS6NQaLLigNA==
   dependencies:
     "@discord-ts-app/core" "^2.0.0"
     "@discord-ts-app/env" "^1.0.0"
