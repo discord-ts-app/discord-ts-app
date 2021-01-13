@@ -12,8 +12,8 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@discord-ts-app/class-decorator": "^1.0.0",
-		"@discord-ts-app/function-decorator": "^1.0.0",
+		"@discord-ts-app/class-decorator": "^1.0.2",
+		"@discord-ts-app/function-decorator": "^1.0.3",
 		"@discord-ts-app/ignitor": "^1.0.3",
 		"@discord-ts-app/lifecycle": "^1.0.0",
 		"@types/node": "^14.14.20",

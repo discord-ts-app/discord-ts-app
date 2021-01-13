@@ -1,7 +1,7 @@
-import { Middleware, Lifecycles } from '@discord-ts-app/class-decorator'
+import { Middleware, Lifecycles, MiddlewareContext } from '@discord-ts-app/class-decorator'
 
 @Middleware({ lifecycle: Lifecycles.MESSAGE_RECEIVED })
-export default class Example {
+export default class Example implements MiddlewareContext {
 	public async run(): Promise<void> {
 		// Your code here
 	}
