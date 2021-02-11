@@ -2,20 +2,20 @@
 # yarn lockfile v1
 
 
-"@discord-ts-app/class-decorator@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@discord-ts-app/class-decorator/-/class-decorator-1.0.2.tgz#66f6d80c18adb33e5ea49b74a109ab2bdd6e28e2"
-  integrity sha512-DvXrZx5TQLNb7zNf+9FFI7mwAqPKju+YKZPEr5hp+5PhOcRj8336rEauzyGL39kjFu9w9ly3l7l9WOgtTC2r5w==
+"@discord-ts-app/class-decorator@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@discord-ts-app/class-decorator/-/class-decorator-1.0.4.tgz#7aae95f7efc4b4522ccee06e8eec83c71f39528c"
+  integrity sha512-f3TNL09SHeN+6U7RBiDqFVEWXwCm40gA8PCn8krGBxmJKEtz0UJB4NIgf67fNU1dCN2eWD2Dy1czppiAxusaNw==
   dependencies:
     "@types/node" "^14.14.20"
     "@types/ws" "^7.4.0"
     discord.js "^12.5.1"
     typescript "^4.1.3"
 
-"@discord-ts-app/core@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@discord-ts-app/core/-/core-2.0.0.tgz#354215ce88b23a27d57cce3bc1f67ca2e265eab1"
-  integrity sha512-Ouds0oYsk1GsnuaJW54LccukRVhzPQH4fe3KwbHXqJ03nIfRzPS9rqxV5pRJWOq+xVSIKDqrzwEw+k3fU1SRWg==
+"@discord-ts-app/core@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@discord-ts-app/core/-/core-2.0.2.tgz#c73d46d3acd135b9d7206681e4b0bec42eaac1d3"
+  integrity sha512-2lT5fd226+f32jKevvfWRLFfi7yRg8SbCb4AfSIG4nFHF3uj6ZMiSRrgcynSILq0j6dh8fl9SxI6p+Q/cbYS3g==
   dependencies:
     "@discord-ts-app/env" "^1.0.0"
     "@discord-ts-app/lifecycle" "^1.0.0"
@@ -34,22 +34,22 @@
     dotenv "^8.2.0"
     typescript "^4.1.3"
 
-"@discord-ts-app/function-decorator@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@discord-ts-app/function-decorator/-/function-decorator-1.0.3.tgz#26e894915ca4cd270fe54db39f67b5a595f73d6d"
-  integrity sha512-0ch8bB6P5OHNWk5mpiAldJ9GrSkuZzQkb9E1xVFIOnT4Ed0n8OI9kY0NXteWk5vUVItJrgSigRiidGGZKW0WeA==
+"@discord-ts-app/function-decorator@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@discord-ts-app/function-decorator/-/function-decorator-1.1.0.tgz#008424de15916add52d4f47187a0b532b2fe5a09"
+  integrity sha512-3YeiGAVqQno7bIqg0yCuLdr1d0p/9aPO6RJdljLxV8SIqOVjsvm1F0R+7dT6x7SXUrv0tW+aRFiYJCUR19R/5A==
   dependencies:
     "@types/node" "^14.14.20"
     "@types/ws" "^7.4.0"
     discord.js "^12.5.1"
     typescript "^4.1.3"
 
-"@discord-ts-app/guard@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@discord-ts-app/guard/-/guard-1.0.0.tgz#83877804f795846d6de7588dbbf2b7e99df44f8b"
-  integrity sha512-gVkZ5soyr+iCBhAGN+ICyhbYyO1RWf/wv4buiGRSPx+PrRGCXrI2/oHYuVdRhv0DQf3noAQVKB0OUjzk5pOhng==
+"@discord-ts-app/guard@^1.0.4":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@discord-ts-app/guard/-/guard-1.0.4.tgz#4dd621aad004eb44964ee9c1d2d665f98732cc20"
+  integrity sha512-zSEqnAJkAidnrRMxAgVTIDdRMPLUAcjXsMtXXLnsui08RCWk5v8ljK6KpwVKwm0DifqRNedRwJS96JMx4BvyYg==
   dependencies:
-    "@discord-ts-app/core" "^2.0.0"
+    "@discord-ts-app/core" "^2.0.2"
     "@discord-ts-app/env" "^1.0.0"
     "@discord-ts-app/lifecycle" "^1.0.0"
     "@types/node" "^14.14.20"
@@ -57,14 +57,14 @@
     discord.js "^12.5.1"
     typescript "^4.1.3"
 
-"@discord-ts-app/ignitor@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@discord-ts-app/ignitor/-/ignitor-1.0.3.tgz#3ef07c48ef4013da7c6f368c9c2710bcff9652a0"
-  integrity sha512-NO1NFXdM4yAP5vvWVKGcB3opirDxTdqXS/EF0A5v918r6ewHeUm8SiIvjItQ24+bub3ZEfcq0+NS6NQaLLigNA==
+"@discord-ts-app/ignitor@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@discord-ts-app/ignitor/-/ignitor-1.1.0.tgz#48963a168efd8e65604c20a980f3808f84fcf217"
+  integrity sha512-r8DbLMU1yOiM3QdneW4gEB/A1IxkUTe5hTX+795uyBBAI5GG0XB72VrV4LtkDsmGBK0zO1DzLYKYeBBeU93kgw==
   dependencies:
-    "@discord-ts-app/core" "^2.0.0"
+    "@discord-ts-app/core" "^2.0.2"
     "@discord-ts-app/env" "^1.0.0"
-    "@discord-ts-app/guard" "^1.0.0"
+    "@discord-ts-app/guard" "^1.0.4"
     "@discord-ts-app/loader" "^1.0.0"
     "@types/node" "^14.14.20"
     "@types/ws" "^7.4.0"

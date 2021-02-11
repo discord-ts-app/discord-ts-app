@@ -1,8 +1,8 @@
-import { Event, Events, Command, Middleware, Lifecycles } from '@discord-ts-app/function-decorator'
+import { Event, Command, Middleware, Lifecycles } from '@discord-ts-app/function-decorator'
 import { Message } from 'discord.js'
 
 export default class Module {
-	@Event({ type: Events.MESSAGE })
+	@Event('ready')
 	public async event(message: Message): Promise<void> {
 		// Your code here
 	}
