@@ -1,4 +1,4 @@
-import { Event, Command, Middleware, Lifecycles } from '@discord-ts-app/function-decorator'
+import { Event, Command, Middleware } from '@discord-ts-app/function-decorator'
 import { Message } from 'discord.js'
 
 export default class Module {
@@ -12,7 +12,7 @@ export default class Module {
 		// Your code here
 	}
 
-	@Middleware({ lifecycle: Lifecycles.MESSAGE_RECEIVED })
+	@Middleware('commandReceived')
 	public async middleware(): Promise<void> {
 		// Your code here
 	}
